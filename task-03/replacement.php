@@ -13,10 +13,13 @@ try {
     }else{
         for ($x = 1; $x <= 50; $x++) {
             echo $x."<br>";
-            if ($x % 5 == 0){
-                echo " Aminat <br>";
-            }
             $write = fwrite($task_file, $x."\n");
+            if ($x % 5 == 0){
+//                $replacement = str_replace("$task_file", "$x", "Aminat");
+                echo " Aminat <br>";
+                $write = fwrite($task_file, "Aminat\n");
+            }
+
         }
 
     }
