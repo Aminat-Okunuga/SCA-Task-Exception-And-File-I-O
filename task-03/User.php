@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: HP
+ * Users: HP
  * Date: 03-Jul-20
  * Time: 6:41 AM
  */
 
-class User
+class Users
 {
     // Properties
     public $fullName;
@@ -89,7 +89,7 @@ class User
         }
 
         if(!strlen($this->password) > 8 ){
-            throw new Exception("You password must be more than 8 characters\n");
+            throw new Exception("Your password must be more than 8 characters\n");
         }
 
         $uppercase = preg_match('@[A-Z]@', $this->password);
@@ -114,7 +114,7 @@ $dob = "1999-12-24";
 $gender = "male";
 
 try{
-    $user = new User($fullName, $gender, $dob, $password);
+    $user = new Users($fullName, $gender, $dob, $password);
 } catch(Exception $ex){
     echo $ex->getMessage();
 }
