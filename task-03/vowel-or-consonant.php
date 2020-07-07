@@ -8,16 +8,16 @@
 
 
 //function that displays if an alphabet is consonant or vowel
-function vowelOrConsonant($x)
+function vowelOrConsonant($input)
 {
     try {
-        if (is_numeric($x)) {
+        if (!ctype_alpha($input)) {
             throw new Exception("An alphabet should be entered");
         }
-        if ($x == 'a' || $x == 'e' || $x == 'i' || $x == 'o' || $x == 'u') {
-            echo "Vowel <br>";
+        if ($input == 'a' || $input == 'e' || $input == 'i' || $input == 'o' || $input == 'u') {
+            echo "The alphabet entered is: Vowel <br>";
         } else {
-            echo "Consonant <br>";
+            echo "The alphabet entered is: Consonant <br>";
         }
     } catch (Exception $ex) {
         echo $ex->getMessage() . "<br>";

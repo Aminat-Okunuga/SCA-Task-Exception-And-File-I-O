@@ -6,19 +6,19 @@
  * Time: 11:37 PM
  */
 namespace customs;
-class ValidateEmail extends \Exception {}
+class ValidatePhone extends \Exception {}
 
 $phone = "";
 
 try{
     if($phone == ""){
-        throw new ValidateEmail("Kindly enter your phone number");
+        throw new ValidatePhone("Kindly enter your phone number");
     }
     echo "Phone Validation successful";
-}catch (ValidateEmail $ex){
+}catch (ValidatePhone $ex){
     echo $ex->getMessage();
 }
 
-class Email{
+class Phone{
 
 }
