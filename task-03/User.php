@@ -6,7 +6,7 @@
  * Time: 6:41 AM
  */
 
-class Users
+class User
 {
     // Properties
     public $fullName;

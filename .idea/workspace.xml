@@ -3,12 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="746deaf6-d500-4c0f-9a20-01147bc819ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-01/all-even-num.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-01/all-even-num.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-01/all-odd-num.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-01/all-odd-num.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-01/display-num-on-a-line.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-01/display-num-on-a-line.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-01/display-pattern-using-nested-loop.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-01/display-pattern-using-nested-loop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-01/divisible-by-5-and-11.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-01/divisible-by-5-and-11.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-01/electricity-unit-charge.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-01/electricity-unit-charge.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-01/factorial-using-for-loop.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-01/factorial-using-for-loop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-01/interest-calculator.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-01/interest-calculator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-01/is-negative-or-positive.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-01/is-negative-or-positive.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-01/iterates-number-for-multiples-of-3-and-5.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-01/iterates-number-for-multiples-of-3-and-5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-01/max-between-3-num.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-01/max-between-3-num.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-01/max-between-two-num.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-01/max-between-two-num.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-01/operator-precedence.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-01/operator-precedence.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-01/sum-all-even.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-01/sum-all-even.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-01/sum-of-all-num.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-01/sum-of-all-num.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-02/Shape.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-02/Shape.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-02/StudentManagementSystem/Students/StudentInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-02/StudentManagementSystem/Students/StudentInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-02/StudentManagementSystem/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-02/StudentManagementSystem/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-03/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-03/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-03/customs/custom-exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-03/customs/custom-exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-03/factorialClass/FactorialWithException.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-03/factorialClass/FactorialWithException.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-03/file-creation.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-03/file-creation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-03/read-from-task-file.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-03/read-from-task-file.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-03/replacement.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-03/replacement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-03/task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/task-03/task.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-03/vowel-or-consonant.php" beforeDir="false" afterPath="$PROJECT_DIR$/task-03/vowel-or-consonant.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,32 +52,36 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="47" />
+          <entry key="css" value="1" />
+          <entry key="php" value="62" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="47" />
+          <entry key="CSS" value="1" />
+          <entry key="PHP" value="62" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="css" value="126" />
           <entry key="dummy" value="28" />
-          <entry key="php" value="11975" />
+          <entry key="php" value="15374" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="11975" />
+          <entry key="CSS" value="126" />
+          <entry key="PHP" value="15374" />
           <entry key="PLAIN_TEXT" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="8" />
+          <entry key="PHP Class.type" value="10" />
         </counts>
       </usages-collector>
     </session>
@@ -67,96 +89,103 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="166">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-03/factorialClass/FactorialWithException.php">
+        <entry file="file://$PROJECT_DIR$/User-login-system/model/Database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-03/customs/custom-exception.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-03/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="119" column="1" lean-forward="true" selection-start-line="119" selection-start-column="1" selection-end-line="119" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-03/file-creation.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-03/vowel-or-consonant.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-03/read-from-task-file.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-03/replacement.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-01/iterates-number-for-multiples-of-3-and-5.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            <state relative-caret-position="459">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task-03/task.txt">
+        <entry file="file://$PROJECT_DIR$/User-login-system/model/Users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+            <state relative-caret-position="-253">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-02/StudentManagementSystem/subject/Subject.php">
+        <entry file="file://$PROJECT_DIR$/User-login-system/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            <state relative-caret-position="357">
+              <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/User-login-system/authenticate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/User-login-system/autoload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-02/StudentManagementSystem/autoloader.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-02/StudentManagementSystem/teacher/Teacher.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-02/StudentManagementSystem/grade/Grade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-02/StudentManagementSystem/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/User-login-system/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -170,19 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/operator-precedence.php" />
-        <option value="$PROJECT_DIR$/iterates-number-for-multiples-of-3-and-5.php" />
-        <option value="$PROJECT_DIR$/electricity-unit-charge.php" />
-        <option value="$PROJECT_DIR$/divisible-by-5-and-11.php" />
-        <option value="$PROJECT_DIR$/max-between-two-num.php" />
-        <option value="$PROJECT_DIR$/max-between-3-num.php" />
-        <option value="$PROJECT_DIR$/sum-of-all-num.php" />
-        <option value="$PROJECT_DIR$/sum-all-even.php" />
-        <option value="$PROJECT_DIR$/is-negative-or-positive.php" />
-        <option value="$PROJECT_DIR$/all-odd-num.php" />
-        <option value="$PROJECT_DIR$/display-num-on-a-line.php" />
-        <option value="$PROJECT_DIR$/interest-calculator.php" />
-        <option value="$PROJECT_DIR$/task-02/shape.php" />
         <option value="$PROJECT_DIR$/task-02/abstractClassShape.php" />
         <option value="$PROJECT_DIR$/task-02/Student-Management-System/Grade.php" />
         <option value="$PROJECT_DIR$/task-02/Student-Management-System/Staff.php" />
@@ -217,10 +233,23 @@
         <option value="$PROJECT_DIR$/task-03/task.txt" />
         <option value="$PROJECT_DIR$/task-03/vowel-or-consonant.php" />
         <option value="$PROJECT_DIR$/task-03/customs/custom-exception.php" />
-        <option value="$PROJECT_DIR$/task-03/User.php" />
-        <option value="$PROJECT_DIR$/task-03/read-from-task-file.php" />
         <option value="$PROJECT_DIR$/task-03/replacement.php" />
         <option value="$PROJECT_DIR$/task-03/file-creation.php" />
+        <option value="$PROJECT_DIR$/task-03/read-from-task-file.php" />
+        <option value="$PROJECT_DIR$/User-login-system/css/style.css" />
+        <option value="$PROJECT_DIR$/User-login-system/User.php" />
+        <option value="$PROJECT_DIR$/task-03/User.php" />
+        <option value="$PROJECT_DIR$/User-login-system/login-suceess.php" />
+        <option value="$PROJECT_DIR$/User-login-system/login-success.php" />
+        <option value="$PROJECT_DIR$/User-login-system/database/Database.php" />
+        <option value="$PROJECT_DIR$/User-login-system/Users.php" />
+        <option value="$PROJECT_DIR$/User-login-system/autoload.php" />
+        <option value="$PROJECT_DIR$/User-login-system/model/Database.php" />
+        <option value="$PROJECT_DIR$/User-login-system/login.php" />
+        <option value="$PROJECT_DIR$/User-login-system/index.php" />
+        <option value="$PROJECT_DIR$/User-login-system/signup.php" />
+        <option value="$PROJECT_DIR$/User-login-system/authenticate.php" />
+        <option value="$PROJECT_DIR$/User-login-system/model/Users.php" />
       </list>
     </option>
   </component>
@@ -252,13 +281,13 @@
             <path>
               <item name="SCA-Task" type="b2602c69:ProjectViewProjectNode" />
               <item name="SCA-Task" type="462c0819:PsiDirectoryNode" />
-              <item name="task-03" type="462c0819:PsiDirectoryNode" />
+              <item name="User-login-system" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SCA-Task" type="b2602c69:ProjectViewProjectNode" />
               <item name="SCA-Task" type="462c0819:PsiDirectoryNode" />
-              <item name="task-03" type="462c0819:PsiDirectoryNode" />
-              <item name="customs" type="462c0819:PsiDirectoryNode" />
+              <item name="User-login-system" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,17 +298,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GbollyShow" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../senateDocument" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\SCA-Task\User-login-system\model" />
+      <recent name="C:\wamp\www\SCA-Task\User-login-system\images" />
       <recent name="C:\wamp\www\SCA-Task\task-03\custom-exception-in-namespce" />
       <recent name="C:\wamp\www\SCA-Task\task-03\factorialClass" />
       <recent name="C:\wamp\www\SCA-Task\task-02\StudentManagementSystem\teacher" />
-      <recent name="C:\wamp\www\SCA-Task\task-02\StudentManagementSystem\subject" />
-      <recent name="C:\wamp\www\SCA-Task\task-02\StudentManagementSystem\grade" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -310,12 +340,12 @@
       <workItem from="1593018068162" duration="4817000" />
       <workItem from="1593096659395" duration="19767000" />
       <workItem from="1593348396863" duration="48737000" />
-      <workItem from="1594069388049" duration="6061000" />
+      <workItem from="1594069388049" duration="23686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110216000" />
+    <option name="totallyTimeSpent" value="127841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -330,7 +360,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -438,13 +468,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task-02/StudentManagementSystem/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -462,24 +488,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task-02/StudentManagementSystem/teacher/Teacher.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task-02/StudentManagementSystem/Students/StudentInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task-02/StudentManagementSystem/grade/Grade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -497,32 +509,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task-02/StudentManagementSystem/autoloader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task-02/StudentManagementSystem/staff/Staff.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task-03/factorialClass/read-from-task-file.php" />
     <entry file="file://$PROJECT_DIR$/task-03/factorialClass/FactorialWithException.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task-03/vowel-or-consonant.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -547,31 +538,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task-03/User.php">
+    <entry file="file://$PROJECT_DIR$/task-03/replacement.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="119" column="1" lean-forward="true" selection-start-line="119" selection-start-column="1" selection-end-line="119" selection-end-column="1" />
+        <state relative-caret-position="68">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task-03/read-from-task-file.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task-03/replacement.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task-03/file-creation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -579,6 +556,118 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-03/vowel-or-consonant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User-login-system/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-03/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-03/file-creation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User-login-system/login-success.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-02/StudentManagementSystem/staff/Staff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-02/StudentManagementSystem/autoloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-02/StudentManagementSystem/teacher/Teacher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-02/StudentManagementSystem/grade/Grade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-02/StudentManagementSystem/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User-login-system/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User-login-system/model/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User-login-system/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User-login-system/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User-login-system/authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User-login-system/model/Users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
