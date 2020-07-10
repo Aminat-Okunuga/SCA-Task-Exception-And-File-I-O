@@ -7,18 +7,18 @@
  */
 session_start();
 include_once '../autoload.php';
-//include_once '../model/Users.php';
+//include_once '../model/User.php;
 
 //Check if form submits
 if (isset($_POST['signup'])) {
-//    $user = new \model\Users();
+//    $user = new \model\User();
     $user->validateSignUp();
 
 }
 
 //Check if form submits
 if (isset($_POST['login'])) {
-    $user = new \model\Users();
+    $user = new \model\User();
     $user->validateLogin();
 }
 
