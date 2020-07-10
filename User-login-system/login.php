@@ -1,26 +1,28 @@
 <?php
 /**
  * Created by PhpStorm.
- * Users: HP
+ * User: HP
  * Date: 07-Jul-20
  * Time: 11:53 AM
  */
-include_once 'autoload.php';
+//session_start();
+//include_once 'autoload.php';
 ?>
 <html>
 <head>
-    <title>User | Sign Up</title>
+    <title>User |Login</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<form class="form" action="authenticate.php" method="post">
+<form class="form" action="controller/authenticate.php" method="post">
     <legend>
         <label for="username">Username:</label>
         <input class="input" type="text" name="username" placeholder="Username...">
         <label>Password:</label>
         <input class="input" type="password" name="password" placeholder="Password...">
-        <input type="submit" name="submit" value="Sign Up">
-
+        <div class="submit">
+            <input type="submit" name="login" value="Login">
+        </div>
     </legend>
 </form>
 </body>

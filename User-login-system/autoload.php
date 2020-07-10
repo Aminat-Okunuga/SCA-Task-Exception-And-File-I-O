@@ -11,13 +11,6 @@ spl_autoload_register(function ($class_name) {
     include $file;
 });
 
-$host = "localhost";
-$username = "root";
-$password = "";
-$db = "users";
-$connection = null;
-
-$conn = new model\Database($host, $username, $password, $db, $connection);
-$conn->connectDB();
-
-$user = new model\Users($username, $password);
+//$conn;
+$database = new \model\Database();
+$user = new \model\User();
