@@ -8,14 +8,14 @@
 session_start();
 include_once '../model/Users.php';
 if (isset($_POST['signup'])) {
-    $user = new \model\Users();
+    $user = new \model\User();
     $user->validateSignUp();
 
 }
 
 
 if (isset($_POST['login'])) {
-    $user = new \model\Users();
+    $user = new \model\User();
     $user->validateLogin();
 }
 
