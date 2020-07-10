@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: HP
  * Date: 09-Jul-20
- * Time: 9:31 PM
+ * Time: 9:31 AM
  */
 session_start();
 if (isset($_POST['signup'])) {
