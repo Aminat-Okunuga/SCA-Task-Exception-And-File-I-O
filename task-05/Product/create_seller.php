@@ -18,7 +18,7 @@
 
 <body>
 
-<form action="process_product.php" method="post" novalidate>
+<form action="process_seller.php" method="post" novalidate>
     <div>
         <label for="name">Name</label>
         <input type="text" name="name" id="name">
