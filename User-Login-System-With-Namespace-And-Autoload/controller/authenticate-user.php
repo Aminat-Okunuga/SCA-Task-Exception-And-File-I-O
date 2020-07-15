@@ -18,7 +18,7 @@ if (isset($_POST['signup'])) {
 
 //Check if form submits
 if (isset($_POST['login'])) {
-    $user = new \model\User();
+    $user = new \model\Users();
     $user->validateLogin();
 }
 

@@ -23,8 +23,8 @@ class Users
 
             if (empty($username) || empty($password)) {
                 throw new \Exception("Username or Password can not be empty");
-            } elseif (is_numeric($username) || is_numeric($password)) {
-                throw new \Exception("Username or Password cannot be number");
+            } elseif (is_numeric($username)) {
+                throw new \Exception("Username cannot be number");
             } else {
                 header("Location: ../login.php");
             }

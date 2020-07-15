@@ -14,8 +14,8 @@ if (isset($_POST['signup'])) {
     if ($username == "" || $password == "") {
         echo "<h2>Username or Password field cannot be empty</h2>";
         header("location: ../index.php");
-    } else if (is_numeric($username) || is_numeric($password)) {
-        echo "Username or Password cannot be number";
+    } else if (is_numeric($username)) {
+        echo "Username cannot be number";
         header("location: ../index.php");
     } else {
 
@@ -33,8 +33,8 @@ if (isset($_POST['login'])) {
     if ($username == "" || $password == "") {
         echo "<h2>Username or Password field cannot be empty</h2>";
         header("location: ../login.php");
-    } else if (is_numeric($username) || is_numeric($password)) {
-        echo "Username or Password cannot be number";
+    } else if (is_numeric($username)) {
+        echo "Username cannot be number";
         header("location: ../login.php");
     } else {
         $_SESSION['username'] = $username;
