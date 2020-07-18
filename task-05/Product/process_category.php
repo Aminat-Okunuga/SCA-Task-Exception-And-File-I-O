@@ -6,6 +6,8 @@
  * Time: 11:03 AM
  */
 
+include_once 'autoload.php';
+
 use \Library\Form as Form;
 use \Library\Validator as Validator;
 
