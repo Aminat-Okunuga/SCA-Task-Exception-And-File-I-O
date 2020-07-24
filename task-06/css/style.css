@@ -37,7 +37,7 @@ input:focus {
 }
 
 .wrap-up {
-    background-image: url("images/login-image2.jpg");
+    background-image: url("../image/login-image2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

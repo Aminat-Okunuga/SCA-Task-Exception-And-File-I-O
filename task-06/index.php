@@ -5,7 +5,14 @@
  * Date: 21-Jul-20
  * Time: 12:04 AM
  */
+session_start();
 include_once 'autoload.php';
+$error = "";
+if(isset($_SESSION['error'])){
+   $error =  $_SESSION['error'];
+
+    unset($_SESSION['error']);
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,6 +28,7 @@ include_once 'autoload.php';
     <div class="wrap-up">
         <div class="wrap-form">
             <span class="title"><h2>Register</h2></span>
+            <span style="color: red"><?php echo $error;?></span>
             <div class="form">
                 <form class="white-background form" action="Controller/process_registration.php" method="post">
                     <div class="input-wrap">

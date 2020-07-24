@@ -22,21 +22,53 @@ class Users extends Database
         $this->db = $database->connectDb();
     }
 
-    public function addUser(){
-    try{
-        $sql = "INSERT INTO user (username, password) VALUES('$this->username', '$this->password')";
+    public function addUser()
+    {
+        try {
 
+            $sql = "INSERT INTO user (username, password) VALUES('$this->username', '$this->password')";
+            $query = mysqli_query($this->db, $sql);
+            return true;
 
-        if ($this->db->query($sql) === TRUE) {
-            echo "Registration is successful!";
-        } else {
-            echo "Error: " . $sql . "<br>" . $this->db->error;
+        } catch (\Exception $e) {
+            echo $e->getMessage();
+            return false;
         }
-
-    }catch (\Exception $e){
-        echo $e->getMessage();
     }
-}
+
+
+    public function loginUser()
+    {
+        try {
+            $sql = "SELECT * FROM user WHERE username = '$this->username' AND password = '$this->password'";
+            $result = mysqli_query($this->db, $sql);
+
+            if (mysqli_num_rows($result) > 0) {
+                $_SESSION['username'] = $this->username;
+                return true;
+            } else {
+                return false;
+            }
+        } catch (\Exception $e) {
+            echo $e->getMessage();
+        }
+    }
+
+    public function userExist()
+    {
+        try {
+            $query = "SELECT * FROM user WHERE username = '$this->username' AND password = '$this->password'";
+            $result = mysqli_query($this->db, $query);
+            if (mysqli_num_rows($result) > 0) {
+                throw new \Exception("User already exists");
+            } else {
+                return true;
+            }
+        } catch (\Exception $e) {
+            echo $e->getMessage();
+            return false;
+        }
+    }
 
     public function getUsername()
     {
