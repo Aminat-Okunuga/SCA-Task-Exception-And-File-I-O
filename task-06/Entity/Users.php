@@ -38,7 +38,7 @@ class Users extends \Library\Database
 
 
     public function loginUser()
-    {g
+    {
         try {
             $sql = "SELECT * FROM user WHERE username = '$this->username' AND password = '$this->password'";
             $result = mysqli_query($this->db, $sql);
