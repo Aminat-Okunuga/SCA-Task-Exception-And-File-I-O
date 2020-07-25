@@ -7,7 +7,7 @@
  */
 
 namespace Entity;
-class Users extends Database
+class Users extends \Library\Database
 {
     public $username;
     public $password;
@@ -18,7 +18,7 @@ class Users extends Database
         $this->username = $username;
         $this->password = $password;
 
-        $database = new \Entity\Database();
+        $database = new \Library\Database();
         $this->db = $database->connectDb();
     }
 
@@ -38,7 +38,7 @@ class Users extends Database
 
 
     public function loginUser()
-    {
+    {g
         try {
             $sql = "SELECT * FROM user WHERE username = '$this->username' AND password = '$this->password'";
             $result = mysqli_query($this->db, $sql);

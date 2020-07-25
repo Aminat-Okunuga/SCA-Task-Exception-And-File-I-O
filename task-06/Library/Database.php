@@ -6,7 +6,7 @@
  * Time: 12:22 AM
  */
 
-namespace Entity;
+namespace Library;
 class Database
 {
     public $host = 'localhost';
