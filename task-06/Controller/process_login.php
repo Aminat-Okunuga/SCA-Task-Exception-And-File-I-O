@@ -12,6 +12,13 @@ use Library\Validator as Validate;
 
 include_once '../autoload.php';
 try {
+
+    if ($_SERVER['REQUEST_METHOD'] != "POST") {
+        throw new \Exception($_SESSION['error'] = "Invalid request format, please try again");
+    }
+    if (!isset($_POST['login']) && $error == null) {
+        throw new \Exception("Invalid request format, please try again");
+    }
     if (isset($_POST['login'])) {
         $username = isset($_POST['username']) ? Sanitise:: sanitise($_POST['username']) : null;
         $password = isset($_POST['password']) ? Sanitise:: sanitise($_POST['password']) : null;
@@ -19,13 +26,9 @@ try {
         $usernameError = Validate::validateText('Username', $username);
         $passwordError = Validate::validateAlphanumeric('Password', $password);
         if ($usernameError != null) {
-
-            $_SESSION['error'] = $usernameError;
             throw new \Exception($usernameError);
         }
         if ($passwordError != null) {
-
-            $_SESSION['error'] = $passwordError;
             throw new \Exception($passwordError);
         } else {
             $user = new \Entity\Users($username, $password);
@@ -37,5 +40,6 @@ try {
         }
     }
 } catch (\Exception $e) {
-    echo $e->getMessage();
+    echo $_SESSION['error'] = $e->getMessage();
+    header('location: ../login.php');
 }
