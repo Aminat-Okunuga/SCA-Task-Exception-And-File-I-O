@@ -2,7 +2,7 @@
 
 namespace Controller;
 
-use \Library\Database as Database;
+use \Library\Database;
 
 class Category {
     public static function create(\Entity\Category $category) {
@@ -20,7 +20,7 @@ class Category {
         $db->prepare("INSERT INTO CATEGORIES (name) VALUES(?)");
         $db->result = $db->stmt->bind_param("s", $category->name);
         $db->excecute();
-        
+
         return $db->result;
     }
 
@@ -53,31 +53,7 @@ class Category {
         $db->prepare("UPDATE CATEGORIES SET name = ?, status = ?, date_updated = current_timestamp WHERE ID = ?");
         $db->result = $db->stmt->bind_param("sii", $category->name, $category->status, $category->id);
         $db->excecute();
-        
+
         return $db->result;
     }
-
-    public static function setCategory($category_id)
-    {
-        try {
-            $db = new Database();
-            $db->connect();
-
-            $db->prepare("SELECT * FROM CATEGORIES WHERE ID = ?");
-            $db->result = $db->stmt->bind_param("i", $category_id);
-            $db->excecute();
-            $result = $db->stmt->get_result();
-            $category = $result->fetch_assoc();
-
-            $db->stmt->setId($result['id']);
-            $db->stmt->setName($result['name']);
-
-            return true;
-
-        } catch (PDOException $ex) {
-            echo $ex->getMessage();
-            return false;
-        }
-    }
-
 }

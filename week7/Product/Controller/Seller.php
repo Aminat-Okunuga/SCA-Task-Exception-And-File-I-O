@@ -9,6 +9,7 @@
 namespace Controller;
 
 use \Library\Database as Database;
+
 class Seller
 {
 
@@ -66,28 +67,5 @@ class Seller
         $db->excecute();
 
         return $db->result;
-    }
-
-    public static function setCategory($category_id)
-    {
-        try {
-            $db = new Database();
-            $db->connect();
-
-            $db->prepare("SELECT * FROM SELLERS WHERE ID = ?");
-            $db->result = $db->stmt->bind_param("i", $category_id);
-            $db->excecute();
-            $result = $db->stmt->get_result();
-            $category = $result->fetch_assoc();
-
-            $db->stmt->setId($result['id']);
-            $db->stmt->setName($result['name']);
-
-            return true;
-
-        } catch (PDOException $ex) {
-            echo $ex->getMessage();
-            return false;
-        }
     }
 }

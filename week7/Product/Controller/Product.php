@@ -8,6 +8,7 @@
 
 namespace Controller;
 
+use \Library\Database as Database;
 
 class Product
 {
@@ -36,7 +37,7 @@ class Product
         $db = new Database();
         $db->connect();
 
-        $categories = $db->select("SELECT * FROM PRODUCT ORDER BY ID DESC");
+        $categories = $db->selectProduct("SELECT * FROM PRODUCT ORDER BY ID DESC");
         return $categories;
     }
 
@@ -66,29 +67,4 @@ class Product
 
         return $db->result;
     }
-
-    public static function setproduct($product_id)
-    {
-        try {
-            $db = new Database();
-            $db->connect();
-
-            $db->prepare("SELECT * FROM PRODUCTS WHERE ID = ?");
-            $db->result = $db->stmt->bind_param("i", $product_id);
-            $db->excecute();
-            $result = $db->stmt->get_result();
-            $product = $result->fetch_assoc();
-
-            $db->stmt->setId($result['id']);
-            $db->stmt->setName($result['name']);
-
-            return true;
-
-        } catch (PDOException $ex) {
-            echo $ex->getMessage();
-            return false;
-        }
-    }
-
-
 }
