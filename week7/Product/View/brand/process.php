@@ -35,7 +35,6 @@ try {
     }
 
     $brand = new Entity\Brand($name, $category);
-
 //    var_dump($brand);
     $result = Controller\Brand::create($brand);
 

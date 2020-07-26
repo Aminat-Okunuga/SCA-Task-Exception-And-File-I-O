@@ -7,7 +7,7 @@
  */
 
 namespace Controller;
-
+use \Library\Database as Database;
 
 class Brand
 {
@@ -36,13 +36,15 @@ class Brand
         $db = new Database();
         $db->connect();
 
-        $brand = $db->select("SELECT * FROM BRANDS ORDER BY ID DESC");
+        $brand = $db->selectBrand("SELECT * FROM BRANDS ORDER BY ID DESC");
+
         return $brand;
     }
 
+
     public static function get($brand_id)
     {
-        $db = new Database();
+        $db = new atabase();
         $db->connect();
 
         $db->prepare("SELECT * FROM BRANDS WHERE ID = ?");

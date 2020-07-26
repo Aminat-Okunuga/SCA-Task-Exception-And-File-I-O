@@ -3,6 +3,7 @@
 namespace Entity;
 
 class Brand {
+    public $id;
     public $name;
     public $categories;
 
@@ -10,6 +11,16 @@ class Brand {
         $this->name = $name;
         $this->categories = $categories;
     }
+
+//    public function getId()
+//    {
+//        return $this->id;
+//    }
+//
+//    public function setId($id)
+//    {
+//        $this->id = $id;
+//    }
 
     public function getName() {
         return $this->name;

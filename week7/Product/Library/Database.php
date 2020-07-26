@@ -58,4 +58,55 @@ class Database {
         return $all_rows;
     }
 
+    public function selectBrand($sql) {
+        $this->prepare("SELECT * FROM BRANDS ORDER BY ID DESC");
+
+        $this->result = $this->stmt->execute();
+        if($this->result == false) {
+            throw new \Exception($this->stmt->error);
+        }
+
+        $this->result = $this->stmt->get_result();
+
+        $all_rows = array();
+        while($row = $this->result->fetch_assoc()) {
+            array_push($all_rows, $row);
+        }
+        return $all_rows;
+    }
+
+    public function selectSeller($sql) {
+        $this->prepare("SELECT * FROM SELLERS ORDER BY ID DESC");
+
+        $this->result = $this->stmt->execute();
+        if($this->result == false) {
+            throw new \Exception($this->stmt->error);
+        }
+
+        $this->result = $this->stmt->get_result();
+
+        $all_rows = array();
+        while($row = $this->result->fetch_assoc()) {
+            array_push($all_rows, $row);
+        }
+        return $all_rows;
+    }
+
+    public function selectProduct($sql) {
+        $this->prepare("SELECT * FROM PRODUCTS ORDER BY ID DESC");
+
+        $this->result = $this->stmt->execute();
+        if($this->result == false) {
+            throw new \Exception($this->stmt->error);
+        }
+
+        $this->result = $this->stmt->get_result();
+
+        $all_rows = array();
+        while($row = $this->result->fetch_assoc()) {
+            array_push($all_rows, $row);
+        }
+        return $all_rows;
+    }
+
 }
