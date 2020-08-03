@@ -40,7 +40,14 @@
         </div>
         <div>
             <label for="category">Category</label>
-            <input type="text" name="category" id="category">
+            <select name="category" id="">
+                <option value="">Select Category</option>
+
+                <?php foreach ($categories as $category): ?>
+                    <option value="<?php echo $category['id']; ?>">
+                        <?php echo $category['name']; ?></option>
+                <?php endforeach ?>
+            </select>
         </div>
         <div>
             <input type="submit" value="Create" name="create_product">
