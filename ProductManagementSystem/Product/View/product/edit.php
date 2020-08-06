@@ -34,7 +34,7 @@ try {
 
 <body>
 
-<form action="process.php" method="post" novalidate enctype="multipart/form-data">
+<form action="process_edit.php" method="post" novalidate enctype="multipart/form-data">
     <div>
         <label for="name">Name</label>
         <input type="text" name="name" value="<?= $product['name'];?>" id="name">
