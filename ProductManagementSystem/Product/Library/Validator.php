@@ -24,6 +24,17 @@ class Validator {
         return null;
     }
 
+    public static function validateText2($field, $text, $max) {
+        if(empty($text)) {
+            return "$field must contain a valid value";
+        }
+
+        if(strlen($text) > $max) {
+            return "$field must contain $max characters or less";
+        }
+        return null;
+    }
+
     public static function validateNumber($field, $number) {
         if(empty($number)) {
             return "$field must contain a valid value";

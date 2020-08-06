@@ -11,6 +11,9 @@ namespace Controller;
 use Library\Database as Database;
 class Product
 {
+
+
+
     public static function create(\Entity\Product $product) {
         $db = new Database();
         $db->connect();
@@ -23,8 +26,8 @@ class Product
         $result = $db->stmt->get_result();
         if($result->num_rows > 0) throw new \Exception("Product already exists");
 
-        $db->prepare("INSERT INTO PRODUCTS (name) VALUES(?)");
-        $db->result = $db->stmt->bind_param("s", $product->name);
+        $db->prepare("INSERT INTO PRODUCTS (name, description, price, rating, color, picture, brand_id, seller_id, category_id) VALUES(?,?,?,?,?,?,?,?,?)");
+        $db->result = $db->stmt->bind_param("ssiissiii", $product->name, $product->description, $product->price, $product->rating, $product->color, $product->pictures, $product->brand, $product->seller, $product->category);
         $db->excecute();
 
         return $db->result;
